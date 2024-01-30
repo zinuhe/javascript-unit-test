@@ -7,19 +7,19 @@ pnpm init
 
 ## Locally in your project.
 ```bash
-pnpm install -D typescript
-pnpm install -D ts-node
+pnpm add -D typescript
+pnpm add -D ts-node
 ```
 
 ## Or globally with TypeScript.
 ```shell
-pnpm install -g typescript
-pnpm install -g ts-node
+pnpm add -g typescript
+pnpm add -g ts-node
 ```
 
 # Depending on configuration, you may also need these
 ```bash
-pnpm install -D tslib @types/node
+pnpm add -D tslib @types/node
 ```
 
 ## Run
@@ -29,7 +29,7 @@ npx ts-node ./main.ts
 ```
 
 ```bash
-node dev
+pnpm dev
 ```
 
 ### Example of a structure
