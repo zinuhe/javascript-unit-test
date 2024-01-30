@@ -27,9 +27,14 @@ pnpm add -D tslib @types/node
 ```bash
 npx ts-node ./main.ts
 ```
-
+Or
 ```bash
 pnpm dev
+```
+
+## Installing Jest
+```
+pnpm add --save-dev jest
 ```
 
 ### Example of a structure
